@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: ghostwhite;
+    margin: 50px;
+}
+
+/* Heading */
+h1 {
+    color:dodgerblue;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: gray 6px 8px 12px;
+}
+
+/* Content */
+p::first-letter{
+    font-size:30px;
+    font-weight: bold;
+    color: red;
+}
+
+p::first-line{
+    font-style: italic;
+    color: darkslategray;
+}
+/* Footer */
+#footer {
+    text-align: center;
+}
+/* Nevigation Links */
+a:link {
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+a:focus {
+    text-shadow:black 4px 6px 8px;
+}
